@@ -1,10 +1,11 @@
 import React from 'react'
-import { Home } from '../modules/home'
+import {Details} from '../../modules/details'
+import { Grid, Box } from '@mui/material'
 
 const Homepage: React.FC = () => {
     return (
         <div>
-            <Home />
+            <Details />
         </div>
     )
 }
